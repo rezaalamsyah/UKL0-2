@@ -8,6 +8,12 @@ jika selesai anda bisa melihat codingan codingannya
 codingan itu semua akan memiliki hasil seperti dibawah ini
 ![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/Screenshot%20(309).png)
 ![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/Screenshot%20(310).png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/1.png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/2.png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/3.png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/4.png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/5.png)
+![alt text](https://github.com/rezaalamsyah/UKL0-2/blob/master/6.png)
 
 
 codingan diatas masih belum lengkap mohon maaf 
