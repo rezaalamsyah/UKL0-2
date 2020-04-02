@@ -4,7 +4,7 @@
 include '../koneksi.php';
 
 $sql = "SELECT * FROM peminjaman INNER JOIN anggota
-        ON peminjaman.id_anggota = anggota.id_anggota
+        ON peminjaman.id_anggota = anggota.id_anggota INNER JOIN detail_pinjam ON peminjaman.id_pinjam = detail_pinjam.id_pinjam
         INNER JOIN petugas ON peminjaman.id_petugas = petugas.id_petugas
         ORDER BY peminjaman.tgl_pinjam";
 
@@ -61,9 +61,9 @@ include '../aset/header.php';
                               ?>
                             </td>
                             <td>
-                              <a href="#" class="badge badge-primary">detail</a>
-                              <a href="#" class="badge badge-secondary">EDIT</a>
-                              <a href="#" class="badge badge-success">Hapus</a>
+                              <a href="detail.php?id_pinjam=<?= $p['id_pinjam'] ?>&nama=<?= $p['nama'] ?>" class="badge badge-primary">detail</a>
+                              <a href="form-edit.php?id_pinjam=<?= $p['id_pinjam']?>" class="badge badge-secondary">EDIT</a>
+                              <a href="hapus.php?id_pinjam=<?= $p['id_pinjam'] ?>" class="badge badge-success">Hapus</a>
                             </td>
                           </tr>
 
@@ -75,6 +75,7 @@ include '../aset/header.php';
                 </tbody>
               </table>
             </div>
+            <a class="nav-item nav-link badge badge-info" href="http://localhost/siperpus/transaksi/form-pinjam.php">tambah data pinjam</a>
           </div>
 
         </div>
